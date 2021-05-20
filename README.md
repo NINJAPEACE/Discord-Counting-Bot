@@ -5,7 +5,7 @@
 
 
 
-**2. Clone this Repository to your Project**
+**2. Clone this Repository**
 _Type:_ `git clone https://github.com/NINJAPEACE/Discord-Counting-Bot` 
 
 _Or you can copy paste the code into your project_
