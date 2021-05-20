@@ -21,7 +21,7 @@ setInterval(async () => {
 let lastMsgAuthor;
 
 client.on('message', async message => {
-	if (message.channel.id === '831200950055338004') {
+	if (message.channel.id === data.countingChannel) {
 	  if (message.author.bot) return;
 		let next_count = parseInt(countingChannel.topic.replace('Next count is ', ''));
 
