@@ -27,7 +27,7 @@ client.on('message', async message => {
 
 		if (parseInt(message.content) !== next_count) {
 			message.delete();
-		} else if (message.author.id === lastMsgAuthor) {
+		} else if(lastMsgAuthor && message.author.id === lastMsgAuthor) {
 			message.delete();
 		} else {
 		        countingChannel.setTopic('Next count is ' + (next_count + 1) + '\nMaybe not sync because Rate-Limited');
